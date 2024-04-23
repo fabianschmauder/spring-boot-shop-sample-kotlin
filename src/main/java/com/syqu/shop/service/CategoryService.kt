@@ -1,12 +1,8 @@
-package com.syqu.shop.service;
+package com.syqu.shop.service
 
-import com.syqu.shop.domain.Category;
+import com.syqu.shop.domain.Category
 
-import java.util.List;
-
-
-public interface CategoryService {
-
-    void save(Category category);
-    List<Category> findAll();
+interface CategoryService {
+    fun save(category: Category)
+    fun findAll(): List<Category>
 }
